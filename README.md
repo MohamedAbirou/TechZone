@@ -4,9 +4,6 @@
 
 TechZone is a modern full-stack e-commerce marketplace for tech products. It's built using Next.js 14 app router, Payload CMS, TypeScript, scss, and Express.js.
 
-![Premiumark-the-marketplace-for-digital-assets (1)](https://github.com/MohamedAbirou/premiumark/assets/109366637/10a3b43d-8fa8-40c5-9160-ae99a05d3616)
-
-
 ## Demo
 
 coming later...
