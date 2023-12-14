@@ -6,7 +6,7 @@ TechZone is a modern full-stack e-commerce marketplace for tech products. It's b
 
 ## Demo
 
-(TechZone)[https://e-commerce-bef46e4.payloadcms.app/]
+[TechZone](https://e-commerce-bef46e4.payloadcms.app/)
 
 ## Features
 
