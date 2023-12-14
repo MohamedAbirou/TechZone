@@ -40,7 +40,7 @@ export default async function Product({ params: { slug } }) {
     <>
       <ProductHero product={product} />
       {product?.enablePaywall && <PaywallBlocks productSlug={slug as string} disableTopPadding />}
-      {relatedProducts && (
+      {relatedProducts ? (
         <Blocks
           disableTopPadding
           blocks={[
@@ -62,6 +62,8 @@ export default async function Product({ params: { slug } }) {
             },
           ]}
         />
+      ) : (
+        <div></div>
       )}
     </>
   )
