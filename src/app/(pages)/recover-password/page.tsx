@@ -1,9 +1,8 @@
-import React from 'react'
 import { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { Gutter } from '../../_components/Gutter'
+import {} from '../../_components/Gutter'
 import { RenderParams } from '../../_components/RenderParams'
 import { mergeOpenGraph } from '../../_utilities/mergeOpenGraph'
 import { RecoverPasswordForm } from './RecoverPasswordForm'
@@ -16,7 +15,7 @@ export default async function RecoverPassword() {
       <div className={classes.heroImg}>
         <Link href="/">
           <Image
-            src="/logo-black.svg"
+            src="/logo-black.png"
             alt="logo"
             width={250}
             height={23}
