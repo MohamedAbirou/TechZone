@@ -1,7 +1,4 @@
 'use client'
-
-import React from 'react'
-
 import { Category } from '../../../../payload/payload-types'
 import { Checkbox } from '../../../_components/Checkbox'
 import { HR } from '../../../_components/HR'
@@ -10,7 +7,7 @@ import { useFilter } from '../../../_providers/Filter'
 
 import classes from './index.module.scss'
 
-const Filters = ({ categories }: { categories: Category[] }) => {
+const Filters = ({ categories }: { categories: Category[] | null }) => {
   const { categoryFilters, sort, setCategoryFilters, setSort } = useFilter()
 
   const handleCategories = (categoryId: string) => {
@@ -24,6 +21,10 @@ const Filters = ({ categories }: { categories: Category[] }) => {
   }
 
   const handleSort = (value: string) => setSort(value)
+
+  if (!categories) {
+    return <div>Loading categories...</div>
+  }
 
   return (
     <div className={classes.filters}>
