@@ -1,4 +1,3 @@
-import React from 'react'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -38,7 +37,7 @@ export default async function Orders() {
       })
       ?.then(json => json.docs)
   } catch (error) {
-    console.error(error)
+    // console.log(error)
   }
 
   return (
