@@ -4,7 +4,7 @@
 
 TechZone is a modern full-stack e-commerce marketplace for tech products. It's built using Next.js 14 app router, Payload CMS, TypeScript, scss, and Express.js.
 
-![Home](https://github.com/MohamedAbirou/TechZone/assets/109366637/25d516db-596f-4fa5-902d-1f2949f75541)
+![TechZone](https://github.com/MohamedAbirou/TechZone/assets/109366637/25d516db-596f-4fa5-902d-1f2949f75541)
 
 
 ## Demo
