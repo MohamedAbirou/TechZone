@@ -5,6 +5,7 @@
   "main": "dist/server.js",
   "license": "MIT",
   "scripts": {
+    "start": "yarn serve",
     "dev": "cross-env PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts nodemon",
     "stripe:webhooks": "stripe listen --forward-to localhost:8000/stripe/webhooks",
     "seed": "rm -rf media && cross-env PAYLOAD_SEED=true PAYLOAD_DROP_DATABASE=true PAYLOAD_CONFIG_PATH=src/payload/payload.config.ts ts-node src/server.ts",
