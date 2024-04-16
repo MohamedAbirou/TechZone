@@ -7,10 +7,6 @@ TechZone is a modern full-stack e-commerce marketplace for tech products. It's b
 ![TechZone](https://github.com/MohamedAbirou/TechZone/assets/109366637/25d516db-596f-4fa5-902d-1f2949f75541)
 
 
-## Demo
-
-[TechZone](https://e-commerce-bef46e4.payloadcms.app/)
-
 ## Features
 
 - Modern full-stack architecture
